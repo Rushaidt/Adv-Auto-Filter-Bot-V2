@@ -1608,7 +1608,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/CYBER_YT1"
+                    "My Dev ⚡", url="invite link"
                 ),
                 
             InlineKeyboardButton
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/CYBER_YT1'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/M-STER-YT/Adv-Auto-Filter-Bot-V2')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='invite link'),
+            InlineKeyboardButton('Source Code 🧾', url ='invite linl')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/M_SRER_TECH_GROUP')
+            InlineKeyboardButton('Support 🛠', url='invite link')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
