@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/github/stars/CrazyBotsz/Adv-Auto-Filter-Bot-V2?style=social">
 
   </a>
-  
+
   <a href="https://github.com/M-STER-YT/Adv-Auto-Filter-Bot-V2/fork">
     <img src="https://img.shields.io/github/forks/CrazyBotsz/Adv-Auto-Filter-Bot-V2?label=Fork&style=social">
 
@@ -71,7 +71,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/M-STER-YT/Adv-Auto-Filter-Bot-V2/tree/main">
+<a href="https://heroku.com/deploy?template= https://github.com/Rushaidt/Adv-Auto-Filter-Bot-V2">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
