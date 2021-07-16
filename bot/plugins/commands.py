@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/M_STER_TECH"
+                                    'Developers', url="https://t.me/StormMW"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/M_STER_TECH"
+                                    'Developers', url="https://t.me/StormMW"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/M_STER_TECH"
+                                    'Developers', url="https://t.me/StormMW"
                                 )
                         ]
                     ]
@@ -89,17 +89,17 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/M_STER_TECH'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/M-STER-YT/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developers', url='https://t.me/StormMW'),
+        InlineKeyboardButton('Source Code 🧾', url ='false')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/M_SRER_TECH_GROUP')
+        InlineKeyboardButton('Support 🛠', url='https:'false')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
-    await update.reply_sticker(sticker="CAACAgEAAxkBAAJEemDQhN67WfA0jR_5ftZStaRMR20YAALKAAN-3IBGwOBvi-NZUuMeBA")
+    await update.reply_sticker(sticker="CAACAgQAAxkBAAIJ-2DxNvBNYZPrcmoTGmGRRl8aMNeaAAKeOAACMY1GAAE6x0wralVnuR4E")
 
 
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
@@ -131,4 +131,4 @@ async def about(bot, update):
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
-    await update.reply_sticker(sticker="CAACAgEAAxkBAAJEemDQhN67WfA0jR_5ftZStaRMR20YAALKAAN-3IBGwOBvi-NZUuMeBA")
+    await update.reply_sticker(sticker="false")
